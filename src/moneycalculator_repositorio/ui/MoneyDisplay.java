@@ -1,6 +1,6 @@
-package MoneyCalculator.ui;
+package moneycalculator_repositorio.ui;
 
-import MoneyCalculator.model.Money;
+import moneycalculator_repositorio.model.Money;
 
 public interface MoneyDisplay {
     public void display(Money money);

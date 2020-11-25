@@ -1,8 +1,8 @@
-package MoneyCalculator.persistence.rest;
+package moneycalculator_repositorio.persistence.rest;
 
-import MoneyCalculator.model.Currency;
-import MoneyCalculator.model.ExchangeRate;
-import MoneyCalculator.persistence.ExchangeRateLoader;
+import moneycalculator_repositorio.model.Currency;
+import moneycalculator_repositorio.model.ExchangeRate;
+import moneycalculator_repositorio.persistence.ExchangeRateLoader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.MalformedURLException;

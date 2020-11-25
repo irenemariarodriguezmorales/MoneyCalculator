@@ -1,4 +1,4 @@
-package MoneyCalculator.model;
+package moneycalculator_repositorio.model;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,11 +1,11 @@
 
-package MoneyCalculator.main;
+package moneycalculator_repositorio.main;
 
-import MoneyCalculator.control.CalculateCommand;
-import MoneyCalculator.persistence.CurrencyListLoader;
-import MoneyCalculator.persistence.ExchangeRateLoader;
-import MoneyCalculator.persistence.file.FileCurrencyListLoader;
-import MoneyCalculator.persistence.rest.RestExchangeRateLoader;
+import moneycalculator_repositorio.control.CalculateCommand;
+import moneycalculator_repositorio.persistence.CurrencyListLoader;
+import moneycalculator_repositorio.persistence.ExchangeRateLoader;
+import moneycalculator_repositorio.persistence.file.FileCurrencyListLoader;
+import moneycalculator_repositorio.persistence.rest.RestExchangeRateLoader;
 
 
 public class MoneyCalculator {
@@ -15,4 +15,5 @@ public class MoneyCalculator {
         MoneyCalculatorFrame moneyCalculatorFrame = new MoneyCalculatorFrame(cLLoader.currencies());
         moneyCalculatorFrame.add(new CalculateCommand(moneyCalculatorFrame.getMoneyDialog(),moneyCalculatorFrame.getMoneyDisplay(), eRLoader));
     }
+
 }

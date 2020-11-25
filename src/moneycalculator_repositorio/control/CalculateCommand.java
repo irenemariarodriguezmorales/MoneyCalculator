@@ -1,17 +1,18 @@
-package MoneyCalculator.control;
+package moneycalculator_repositorio.control;
 
-import MoneyCalculator.model.Currency;
-import MoneyCalculator.model.Money;
-import MoneyCalculator.persistence.ExchangeRateLoader;
-import MoneyCalculator.ui.MoneyDialog;
-import MoneyCalculator.ui.MoneyDisplay;
+import moneycalculator_repositorio.control.Command;
+import moneycalculator_repositorio.model.Currency;
+import moneycalculator_repositorio.model.Money;
+import moneycalculator_repositorio.persistence.ExchangeRateLoader;
+import moneycalculator_repositorio.ui.MoneyDialog;
+import moneycalculator_repositorio.ui.MoneyDisplay;
 
 public class CalculateCommand implements Command{
 
     private final MoneyDialog moneyDialog;
     private final MoneyDisplay moneyDisplay;
     private final ExchangeRateLoader loader;
-    private Currency eur = new Currency("EUR","Euro","€");
+    private Currency eur = new Currency("EUR","Euro","ï¿½");
 
     public CalculateCommand(MoneyDialog moneyDialog, MoneyDisplay moneyDisplay,ExchangeRateLoader loader) {
         this.moneyDialog = moneyDialog;

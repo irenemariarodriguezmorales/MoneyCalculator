@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package MoneyCalculator.main;
+package moneycalculator_repositorio.main;
 
-import MoneyCalculator.control.Command;
-import MoneyCalculator.model.Currency;
-import MoneyCalculator.ui.MoneyDialog;
-import MoneyCalculator.ui.MoneyDisplay;
-import MoneyCalculator.ui.swing.SwingMoneyDialog;
-import MoneyCalculator.ui.swing.SwingMoneyDisplay;
+import moneycalculator_repositorio.control.Command;
+import moneycalculator_repositorio.model.Currency;
+import moneycalculator_repositorio.ui.MoneyDialog;
+import moneycalculator_repositorio.ui.MoneyDisplay;
+import moneycalculator_repositorio.ui.swing.SwingMoneyDialog;
+import moneycalculator_repositorio.ui.swing.SwingMoneyDisplay;
 import java.awt.BorderLayout;
 import java.awt.Component;
 import java.awt.event.ActionEvent;

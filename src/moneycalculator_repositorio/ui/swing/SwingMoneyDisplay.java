@@ -1,7 +1,7 @@
-package MoneyCalculator.ui.swing;
+package moneycalculator_repositorio.ui.swing;
 
-import MoneyCalculator.model.Money;
-import MoneyCalculator.ui.MoneyDisplay;
+import moneycalculator_repositorio.model.Money;
+import moneycalculator_repositorio.ui.MoneyDisplay;
 import java.awt.Component;
 import javax.swing.JLabel;
 import javax.swing.JPanel;

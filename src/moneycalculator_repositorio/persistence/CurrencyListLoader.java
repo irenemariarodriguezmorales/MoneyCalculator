@@ -1,6 +1,6 @@
-package MoneyCalculator.persistence;
+package moneycalculator_repositorio.persistence;
 
-import MoneyCalculator.model.Currency;
+import moneycalculator_repositorio.model.Currency;
 import java.util.List;
 
 public interface CurrencyListLoader {

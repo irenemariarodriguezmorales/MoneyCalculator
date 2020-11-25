@@ -1,5 +1,5 @@
 
-package MoneyCalculator.model;
+package moneycalculator_repositorio.model;
 
 import java.time.LocalDate;
 

@@ -1,4 +1,4 @@
-package MoneyCalculator.control;
+package moneycalculator_repositorio.control;
 
 public interface Command {
     String name();
